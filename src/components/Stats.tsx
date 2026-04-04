@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const stats = [
-  { label: 'Години опит', value: '20+' },
+  { label: 'Години опит', value: '30+' },
   { label: 'Проектирани нагревателя', value: '5000+' },
   { label: 'Доволни клиенти', value: '1200+' },
   { label: 'Сертифицирано качество', value: '100%' },
