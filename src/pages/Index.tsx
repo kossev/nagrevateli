@@ -35,13 +35,13 @@ const Index = () => {
               и прецизност
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto mb-10 font-light">
-              Ние превръщаме енергията в топлина чрез иновативни решения и безкомпромисно производство.
+              Ние превръщаме енергията в топлина чрез иновативни решения и безкомпромисно качество.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white w-full sm:w-auto px-10 h-14 text-lg uppercase font-bold" asChild>
                 <Link to="/heaters">Каталог Продукти</Link>
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-slate-900 w-full sm:w-auto px-10 h-14 text-lg uppercase font-bold" asChild>
+              <Button size="lg" variant="outline" className="bg-white text-black border-white hover:bg-slate-100 w-full sm:w-auto px-10 h-14 text-lg uppercase font-bold" asChild>
                 <Link to="/contact">Направи запитване</Link>
               </Button>
             </div>
