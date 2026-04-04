@@ -28,7 +28,7 @@ const Footer = () => {
           <ul className="space-y-3 text-sm">
             <li className="flex items-center space-x-3">
               <Phone className="h-4 w-4 text-orange-500" />
-              <span>+359 888 123 456</span>
+              <span>089 681 5155</span>
             </li>
             <li className="flex items-center space-x-3">
               <Mail className="h-4 w-4 text-orange-500" />
@@ -36,7 +36,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center space-x-3">
               <MapPin className="h-4 w-4 text-orange-500" />
-              <span>гр. Хасково, Промишлена зона</span>
+              <span>кв. Средна Кула-Русе, ул. „Яворица“ №1</span>
             </li>
           </ul>
         </div>

@@ -30,14 +30,14 @@ const Contact = () => {
               <MapPin className="h-6 w-6 text-orange-600 shrink-0" />
               <div>
                 <h4 className="font-bold uppercase text-sm mb-1">Адрес</h4>
-                <p className="text-slate-600 text-sm italic">гр. Хасково, Южна промишлена зона, ул. „Индустриална“</p>
+                <p className="text-slate-600 text-sm italic">кв. Средна Кула-Русе, ул. „Яворица“ №1</p>
               </div>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600">
               <Phone className="h-6 w-6 text-orange-600 shrink-0" />
               <div>
                 <h4 className="font-bold uppercase text-sm mb-1">Телефон</h4>
-                <p className="text-slate-600 text-sm italic">+359 888 123 456</p>
+                <p className="text-slate-600 text-sm italic">089 681 5155</p>
               </div>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600">
