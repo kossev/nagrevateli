@@ -55,7 +55,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-black text-slate-900 mb-8 uppercase leading-tight">Повече от двадесет години <span className="text-orange-600">традиция</span></h2>
+            <h2 className="text-4xl font-black text-slate-900 mb-8 uppercase leading-tight">Повече от тридесет години <span className="text-orange-600">традиция</span></h2>
             <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
               <p>
                 Основана с мисията да предостави надеждни решения, "ЕТ БК-Насю Великов" днес е водещ производител на електрически нагреватели в региона.
