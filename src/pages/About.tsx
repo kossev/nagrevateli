@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
 
-const stats = [
+const statsData = [
   { label: 'Години опит', value: '30+' },
   { label: 'Проектирани нагревателя', value: '5000+' },
   { label: 'Доволни клиенти', value: '1200+' },
@@ -77,18 +77,18 @@ const About = () => {
             <img 
               src="/images/us.jpg" 
               alt="Нашият екип" 
-              className="rounded-[40px] shadow-2xl border-b-8 border-r-8 border-orange-600" 
+              className="rounded-[40px] shadow-2xl border-b-8 border-r-8 border-orange-600 w-full object-cover" 
               loading="lazy"
             />
           </div>
         </div>
       </div>
 
-      {/* Stats Section - Ensuring Visibility with contrasting colors */}
+      {/* Stats Section */}
       <section className="py-20 bg-orange-600 text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {stats.map((stat, index) => (
+            {statsData.map((stat, index) => (
               <motion.div 
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
