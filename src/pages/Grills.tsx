@@ -10,7 +10,7 @@ const Grills = () => {
   const grills = [
     { id: 1, name: "Професионална скара - Модел S1", features: "16 тръбни нагревателя, 3200W, неръждаема стомана.", img: "https://public.placeholder.com/600x400?text=Скара+Модел+S1" },
     { id: 2, name: "Домашна скара - Модел H1", features: "12 тръбни нагревателя, 2400W, компактен дизайн.", img: "https://public.placeholder.com/600x400?text=Скара+Модел+H1" },
-    { id: 3, name: "Скара с капак", features: "За равномерно изпичане и задържане на сочността.", img: "https://public.placeholder.com/600x400?text=Скара+с+Капак" },
+    { id: 3, name: "Скара with Lid", features: "For even grilling and juice retention.", img: "https://public.placeholder.com/600x400?text=Скара+с+Капак" },
   ];
 
   return (
@@ -28,7 +28,12 @@ const Grills = () => {
           {grills.map((item) => (
             <Card key={item.id} className="flex flex-col md:flex-row overflow-hidden shadow-lg border-l-4 border-l-orange-600">
               <div className="md:w-1/2 h-64 md:h-auto bg-slate-200">
-                <img src={item.img} alt={item.name} className="w-full h-full object-cover" />
+                <img 
+                  src={item.img} 
+                  alt={item.name} 
+                  className="w-full h-full object-cover" 
+                  loading="lazy"
+                />
               </div>
               <div className="md:w-1/2 flex flex-col p-6">
                 <CardTitle className="uppercase mb-4">{item.name}</CardTitle>

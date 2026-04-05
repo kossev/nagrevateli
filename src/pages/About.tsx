@@ -28,7 +28,12 @@ const About = () => {
       {/* Hero Header */}
       <div className="bg-slate-900 py-32 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=2000" alt="Factory" className="w-full h-full object-cover" />
+          <img 
+            src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=2000" 
+            alt="Factory" 
+            className="w-full h-full object-cover" 
+            loading="lazy"
+          />
         </div>
         <div className="container relative z-10 mx-auto px-4 text-center">
           <motion.h1 
@@ -73,6 +78,7 @@ const About = () => {
               src="/images/us.jpg" 
               alt="Нашият екип" 
               className="rounded-[40px] shadow-2xl border-b-8 border-r-8 border-orange-600" 
+              loading="lazy"
             />
           </div>
         </div>

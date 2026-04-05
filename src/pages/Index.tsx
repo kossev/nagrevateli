@@ -22,6 +22,7 @@ const Index = () => {
             src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=2000" 
             alt="Industrial Background" 
             className="w-full h-full object-cover scale-105"
+            loading="lazy"
           />
         </div>
         <div className="container relative z-10 mx-auto px-4 text-center">
@@ -66,7 +67,12 @@ const Index = () => {
               whileHover={{ y: -10 }}
               className="group relative overflow-hidden rounded-2xl h-[450px] shadow-2xl"
             >
-              <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1200" alt="Heaters" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <img 
+                src="/images/n1.jpg" 
+                alt="Heaters" 
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                loading="lazy"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent flex flex-col justify-end p-10">
                 <h3 className="text-3xl font-bold text-white mb-3">Нестандартни нагреватели</h3>
                 <p className="text-slate-200 mb-6 text-lg">Изработка по индивидуален проект за специфични машини и съоръжения.</p>
@@ -79,7 +85,12 @@ const Index = () => {
               whileHover={{ y: -10 }}
               className="group relative overflow-hidden rounded-2xl h-[450px] shadow-2xl"
             >
-              <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=1200" alt="Grills" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <img 
+                src="/images/s1.jpg" 
+                alt="Grills" 
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                loading="lazy"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent flex flex-col justify-end p-10">
                 <h3 className="text-3xl font-bold text-white mb-3">Професионални скари</h3>
                 <p className="text-slate-200 mb-6 text-lg">Неръждаеми изделия с доказана издръжливост в натоварена среда.</p>

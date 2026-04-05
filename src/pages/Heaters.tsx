@@ -56,7 +56,12 @@ const Heaters = () => {
             >
               <div className="lg:w-1/2 group">
                 <div className="relative overflow-hidden rounded-[32px] shadow-2xl">
-                  <img src={item.img} alt={item.name} className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-110" />
+                  <img 
+                    src={item.img} 
+                    alt={item.name} 
+                    className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-110" 
+                    loading="lazy"
+                  />
                   <div className="absolute inset-0 bg-orange-600/10 group-hover:bg-transparent transition-colors"></div>
                 </div>
               </div>
