@@ -14,7 +14,7 @@ const Contact = () => {
     alert('Благодарим ви! Вашето съобщение беше изпратено успешно.');
   };
 
-  const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=Средна+Кула-Русе,+ул.+Яворица+1";
+  const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=Средна+Кула-Русе,+ул.+Яворица+22";
 
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
