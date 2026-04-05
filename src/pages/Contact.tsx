@@ -37,7 +37,7 @@ const Contact = () => {
               <MapPin className="h-6 w-6 text-orange-600 shrink-0 group-hover:scale-110 transition-transform" />
               <div>
                 <h4 className="font-bold uppercase text-sm mb-1">Адрес</h4>
-                <p className="text-slate-600 text-sm italic group-hover:text-orange-600 transition-colors">кв. Средна Кула-Русе, ул. „Яворица“ №1</p>
+                <p className="text-slate-600 text-sm italic group-hover:text-orange-600 transition-colors">кв. Средна Кула-Русе, ул. „Яворица“ №22</p>
                 <span className="text-[10px] text-orange-500 font-bold uppercase mt-2 block transition-opacity">Виж в Google Maps</span>
               </div>
             </a>
