@@ -41,13 +41,18 @@ const Contact = () => {
                 <span className="text-[10px] text-orange-500 font-bold uppercase mt-2 block transition-opacity">Виж в Google Maps</span>
               </div>
             </a>
-            <div className="bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600">
-              <Phone className="h-6 w-6 text-orange-600 shrink-0" />
+            <a 
+              href="tel:+359896815155"
+              target="_self"
+              className="block bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600 hover:shadow-md hover:border-orange-500 transition-all group"
+            >
+              <Phone className="h-6 w-6 text-orange-600 shrink-0 group-hover:scale-110 transition-transform" />
               <div>
                 <h4 className="font-bold uppercase text-sm mb-1">Телефон</h4>
-                <p className="text-slate-600 text-sm italic">089 681 5155</p>
+                <p className="text-slate-600 text-sm italic group-hover:text-orange-600 transition-colors">089 681 5155</p>
+                <span className="text-[10px] text-orange-500 font-bold uppercase mt-2 block">Позвънете сега</span>
               </div>
-            </div>
+            </a>
             <div className="bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600">
               <Clock className="h-6 w-6 text-orange-600 shrink-0" />
               <div>
@@ -70,9 +75,11 @@ const Contact = () => {
                   <Input type="email" placeholder="example@mail.com" required />
                 </div>
               </div>
-              <div className="space-y-2">
-                <label className="text-xs font-bold uppercase text-slate-500">Тема</label>
-                <Input placeholder="Напр. Запитване за нагреватели" required />
+              <div className="grid grid-cols-1 gap-6">
+                <div className="space-y-2">
+                  <label className="text-xs font-bold uppercase text-slate-500">Тема</label>
+                  <Input placeholder="Напр. Запитване за нагреватели" required />
+                </div>
               </div>
               <div className="space-y-2">
                 <label className="text-xs font-bold uppercase text-slate-500">Съобщение</label>
