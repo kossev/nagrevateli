@@ -22,9 +22,9 @@ const Grills = () => {
     },
     { 
       id: 3, 
-      name: "Скара с капак", 
-      features: "За равномерно изпичане и запазване на сочността на продуктите.", 
-      img: "https://images.unsplash.com/photo-1544145945-f904253db0ad?auto=format&fit=crop&q=80&w=800" 
+      name: "Малка скара-24V", 
+      features: "Подходяща за кемпери, каравани T.I.R и др.", 
+      img: "/images/ms1.jpg" 
     },
   ];
 
