@@ -41,7 +41,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-black uppercase tracking-tighter"
           >
-            Бързина и качество
+            Нашето наследство
           </motion.h1>
           <p className="text-orange-500 mt-4 text-xl font-bold uppercase tracking-widest">Традиция и качество от гр. Русе</p>
         </div>
@@ -58,7 +58,7 @@ const About = () => {
             <h2 className="text-4xl font-black text-slate-900 mb-8 uppercase leading-tight">Повече от двадесет години <span className="text-orange-600">традиция</span></h2>
             <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
               <p>
-                Основана с мисията да предостави надеждни решения, "ЕТ-НАСКО ВЕЛИКОВ" днес е водещ производител на електрически нагреватели в региона.
+                Основана с мисията да предостави надеждни решения, "ЕТ БК-Насю Великов" днес е водещ производител на електрически нагреватели в региона.
               </p>
               <p>
                 Ние не просто произвеждаме – ние създаваме решения за вашия бизнес. Всеки проект е индивидуален, защото вярваме, че качеството не е случайност, а резултат от прецизна работа.

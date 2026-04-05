@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Flame className="h-6 w-6 text-orange-600" />
-            <span className="text-xl font-bold tracking-tighter uppercase">ЕТ-НАСКО ВЕЛИКОВ</span>
+            <span className="text-xl font-bold tracking-tighter uppercase">ЕТ БК-Насю Великов</span>
           </Link>
 
           {/* Desktop Links */}
