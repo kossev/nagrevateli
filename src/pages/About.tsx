@@ -70,8 +70,8 @@ const About = () => {
           </motion.div>
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&q=80&w=1200" 
-              alt="Team Work" 
+              src="/images/us.jpg" 
+              alt="Нашият екип" 
               className="rounded-[40px] shadow-2xl border-b-8 border-r-8 border-orange-600" 
             />
           </div>
