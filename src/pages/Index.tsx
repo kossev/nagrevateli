@@ -115,7 +115,7 @@ const Index = () => {
             {[
               { icon: <Settings className="h-12 w-12 text-orange-500" />, title: "Гъвкавост", desc: "Можем да изработим нагревател от 100W до 100kW по Ваши размери." },
               { icon: <Zap className="h-12 w-12 text-orange-500" />, title: "Бързина", desc: "Оптимизиран производствен процес за минимални срокове на доставка." },
-              { icon: <ShieldCheck className="h-12 w-12 text-orange-500" />, title: "Дълголетие", desc: "Използваме само висококачествени съпротивителни проводници Kanthal." }
+              { icon: <ShieldCheck className="h-12 w-12 text-orange-500" />, title: "Качество", desc: "Използваме само висококачествени съпротивителни проводници Kanthal." }
             ].map((feature, i) => (
               <motion.div 
                 key={i} 
