@@ -18,7 +18,7 @@ const Grills = () => {
       id: 2, 
       name: "Домашна скара - Модел H1", 
       features: "12 тръбни нагревателя, 2400W, компактен дизайн. Подходяща за тераси и градини.", 
-      img: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=800" 
+      img: "/images/ds1.jpg" 
     },
     { 
       id: 3, 
