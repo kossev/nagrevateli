@@ -41,7 +41,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-black uppercase tracking-tighter"
           >
-            Нашето наследство
+            Бързина и качество
           </motion.h1>
           <p className="text-orange-500 mt-4 text-xl font-bold uppercase tracking-widest">Традиция и качество от гр. Русе</p>
         </div>
