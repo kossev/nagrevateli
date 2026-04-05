@@ -2,9 +2,8 @@
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Hammer } from 'lucide-react';
+import { Menu, X, Flame } from 'lucide-react';
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +22,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Hammer className="h-6 w-6 text-orange-600" />
+            <Flame className="h-6 w-6 text-orange-600" />
             <span className="text-xl font-bold tracking-tighter uppercase">ЕТ-НАСКО ВЕЛИКОВ</span>
           </Link>
 
