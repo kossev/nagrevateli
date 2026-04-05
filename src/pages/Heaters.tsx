@@ -39,7 +39,7 @@ const Heaters = () => {
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-3xl mb-16">
           <Badge className="bg-orange-600 text-white mb-4 uppercase px-4 py-1">Професионални решения</Badge>
-          <h1 className="text-5xl font-black uppercase mb-6 leading-tight">Нестандартни <br />нагревателни елементи</h1>
+          <h1 className="text-4xl font-black uppercase mb-6 leading-tight">Нестандартни <br />нагревателни елементи</h1>
           <p className="text-xl text-slate-600 leading-relaxed">
             Произвеждаме нагреватели по Ваша мостра, чертеж или техническо описание. Използваме материали от водещи европейски доставчици.
           </p>
