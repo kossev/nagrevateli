@@ -14,6 +14,8 @@ const Contact = () => {
     alert('Благодарим ви! Вашето съобщение беше изпратено успешно.');
   };
 
+  const googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=Средна+Кула-Русе,+ул.+Яворица+1";
+
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       <Navbar />
@@ -26,13 +28,19 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Contact Info */}
           <div className="lg:col-span-1 space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600">
-              <MapPin className="h-6 w-6 text-orange-600 shrink-0" />
+            <a 
+              href={googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600 hover:shadow-md hover:border-orange-500 transition-all group"
+            >
+              <MapPin className="h-6 w-6 text-orange-600 shrink-0 group-hover:scale-110 transition-transform" />
               <div>
                 <h4 className="font-bold uppercase text-sm mb-1">Адрес</h4>
-                <p className="text-slate-600 text-sm italic">кв. Средна Кула-Русе, ул. „Яворица“ №1</p>
+                <p className="text-slate-600 text-sm italic group-hover:text-orange-600 transition-colors">кв. Средна Кула-Русе, ул. „Яворица“ №1</p>
+                <span className="text-[10px] text-orange-500 font-bold uppercase mt-2 block opacity-0 group-hover:opacity-100 transition-opacity">Виж в Google Maps</span>
               </div>
-            </div>
+            </a>
             <div className="bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600">
               <Phone className="h-6 w-6 text-orange-600 shrink-0" />
               <div>
