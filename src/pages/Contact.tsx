@@ -38,7 +38,7 @@ const Contact = () => {
               <div>
                 <h4 className="font-bold uppercase text-sm mb-1">Адрес</h4>
                 <p className="text-slate-600 text-sm italic group-hover:text-orange-600 transition-colors">кв. Средна Кула-Русе, ул. „Яворица“ №1</p>
-                <span className="text-[10px] text-orange-500 font-bold uppercase mt-2 block opacity-0 group-hover:opacity-100 transition-opacity">Виж в Google Maps</span>
+                <span className="text-[10px] text-orange-500 font-bold uppercase mt-2 block transition-opacity">Виж в Google Maps</span>
               </div>
             </a>
             <div className="bg-white p-6 rounded-xl shadow-sm flex items-start space-x-4 border-l-4 border-orange-600">
